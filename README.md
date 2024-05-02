@@ -1,18 +1,52 @@
-## Getting Started
+# Java Google Books API
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+Este é um projeto em Java que permite buscar informações sobre livros usando a API do Google Books.
 
-## Folder Structure
+## Funcionalidades
 
-The workspace contains two folders by default, where:
+- Permite ao usuário digitar o título de um livro para buscar informações sobre ele na API do Google Books.
+- Exibe os detalhes do livro encontrado, como título, autor, editora, etc.
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+## Requisitos
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+- Java Development Kit (JDK) 11 ou superior instalado
+- Conexão com a Internet para acessar a API do Google Books
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+## Como usar
 
-## Dependency Management
+1. Clone este repositório para o seu ambiente local:
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+git clone https://github.com/seu-usuario/java-google-books-api.git
+
+
+2. Navegue até o diretório do projeto:
+
+cd java-google-books-api
+
+
+3. Compile o código-fonte:
+
+javac App.java
+
+
+4. Execute o aplicativo:
+
+java App
+
+
+5. Siga as instruções para inserir o título do livro que deseja buscar.
+
+## Exemplo de uso
+
+Digite um livro para a busca:
+The Hitchhiker's Guide to the Galaxy
+
+
+## Contribuindo
+
+Contribuições são bem-vindas! Se você encontrar algum problema ou tiver sugestões para melhorias, sinta-se à vontade para abrir uma issue ou enviar um pull request.
+
+## Licença
+
+Este projeto está licenciado sob a [Licença MIT](LICENSE).
+
