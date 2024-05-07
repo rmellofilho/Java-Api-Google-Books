@@ -6,7 +6,7 @@ import java.net.http.HttpResponse;
 import java.util.Scanner;
 
 public class App {
-    public static void main(String[] args){
+    public static void main(String[] args) throws Exception{
         Scanner leitura = new Scanner(System.in);
         
         System.out.println("Digite um livro para a busca:");
@@ -24,8 +24,6 @@ public class App {
         } catch (IOException e) {
             e.printStackTrace();
         }
-
-        
 
     }
 }
